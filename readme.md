@@ -1,1 +1,7 @@
+# Reflect-arrays for Long-Range LoS MIMO Links
+LoS MIMO is by now well accepted as a means of taking advantage of the increased spatial degrees of freedom available as we scale up the carrier frequency. However, for fixed transceiver form factors, the available degrees of freedom decay quickly with link range. We explore an innovative approach for creating spatial degrees of freedom for long-range links by utilizing large virtual apertures created by placing multiple reflect-arrays near the transceivers. Placing the reflect-arrays close to the transceivers necessitates beam-focusing for the transmit subarray and corresponding reflect-array link. Thus, the effective phase compensation required by each reflect-array on the transmitter side is two fold, accounting for the quadratic phase compensation from beam-focusing and linear phase compensation required to beamform towards the reflect-arrays on the receiver side. The use of reflect-arrays in this setting provides beamforming gain in addition to creating spatial degrees of freedom while retaining compact transceiver form-factors, enabling power efficient transfer of 5.2 Gbps over 1,500 m in the 28 GHz band.
 
+
+*Please Refer to the full paper [here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://wcsl.ece.ucsb.edu/sites/default/files/publications/creating_spatial_degrees_of_freedom_for_long_range_los_mimo_using_reflect_arrays_spawc_2024_final.pdf) which provides a detailed description of the system model simulated*
+
+## Running the simulation
